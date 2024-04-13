@@ -1,0 +1,33 @@
+.holder {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  text-align: center;
+  padding: 15px 0px;
+  flex-basis: calc((100%) / 3);
+}
+.item-1 {
+  flex-basis: 50%;
+  background-color: red;
+  order: -5;
+}
+.item-2 {
+  background-color: blue;
+  order: -2;
+}
+.item-3 {
+  background-color: purple;
+  order: -3;
+}
+.item-4 {
+  background-color: green;
+  order: 1;
+}
+.item-5 {
+  flex-basis: 50%;
+  background-color: yellow;
+  order: -4;
+}
