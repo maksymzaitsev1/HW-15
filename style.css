@@ -3,6 +3,10 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  border: 2px solid hsl(0, 0%, 0%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
 }
 .item {
   text-align: center;
